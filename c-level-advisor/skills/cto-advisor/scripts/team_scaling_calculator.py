@@ -3,6 +3,7 @@
 Engineering Team Scaling Calculator - Optimize team growth and structure
 """
 
+import argparse
 import json
 import math
 import sys
@@ -536,8 +537,6 @@ SAMPLE_GROWTH_TARGETS = {
 }
 
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser(
         description="Engineering Team Scaling Calculator - Optimize team growth and structure"
     )
